@@ -1,0 +1,39 @@
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .header__navbar-item {
+        display: none;
+    }
+
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .openMobiMenu{
+    position: absolute;
+    right: 16px;
+    display: block;
+  }
+
+  .openMobiMenu:hover{
+    cursor: pointer;
+  }
+
+  .category-list {
+    margin: 16px 24px;
+}
+
+.pagination {
+    font-size: 10px;
+}
+
+}
+

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
     <link rel="stylesheet" href="./assets/fontawesome-free-6.0.0-web/css/all.min.css">
 </head>
 <body>
@@ -21,6 +22,53 @@
                         </div>
                         <li class="header__navbar-item header__navbar-home">HOME PAGE</li>
                     </ul>
+
+                    <div id="myNav" class="overlay">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeMobiMenu()">&times;</a>
+
+                        <div class="overlay-content">
+                            <ul class="category-list">
+                                <li class="category-item dropdown-btn">
+                                    <a href="#" class="category-link">GENERAL</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    
+                                </li>
+                                <ul class="dropdown-container">
+                                    <li class="dropdown-item">Cargo</li>
+                                    <li class="dropdown-item" >Yard</li>
+                                    <li class="dropdown-item">Truck</li>
+                                  </ul>
+                                <li class="category-item">
+                                    <a href="" class="category-link">BOOKING</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-link">PLANNING</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-link">GATE</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-link">OPERATION</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-link">REPORT</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-link">CONFIGURATION</a>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                      </div>
+                      
+                      <span onclick="openMobiMenu()" class="openMobiMenu">Menu</span>
 
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
@@ -184,7 +232,6 @@
             </div>
         </div>
 
-        <!-- <button class="open-modal-btn">Open Modal</button> -->
         <div class="modal hide">
           <div class="modal__inner">
             <div class="modal__header">
@@ -276,4 +323,5 @@
 
 </script>
 <script src="./assets/app.js"></script>
+<script src="./assets/func.js"></script>
 </html>

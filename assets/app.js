@@ -15,7 +15,7 @@ function openTab(evt, yard) {
     evt.currentTarget.className += " active";
   }
 
-  const modal = document.querySelector(".modal");
+    const modal = document.querySelector(".modal");
     const openModalBtn = document.querySelector(".open-modal-btn");
     const iconCloseModal = document.querySelector(".modal__header i");
     const buttonCloseModal = document.querySelector(".modal__footer .btn-close");
